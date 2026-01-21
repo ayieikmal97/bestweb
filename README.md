@@ -13,8 +13,6 @@ This is a Laravel project scaffolded with **Laravel Breeze**, including RESTful 
 
 ## Installation
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/ayieikmal97/bestweb.git
 cd bestweb
