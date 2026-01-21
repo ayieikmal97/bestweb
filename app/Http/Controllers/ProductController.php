@@ -85,15 +85,13 @@ class ProductController extends Controller
     }
 
     
-    public function show($id)
+    public function show(Product $product)
     {
-        $product = Product::findOrFail($id);
         return response(['data'=>$product]);
     }
 
-    public function destroy($id)
+    public function destroy(Product $product)
     {
-        $product = Product::findOrFail($id);
         $product->delete();
         return response(['saved'=>1]);
     }
