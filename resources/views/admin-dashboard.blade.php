@@ -108,7 +108,7 @@ $(function () {
         serverSide: true,
         'destroy':true,
         "ajax": {
-            'url': '/product/create',
+            'url': '/api/product/create',
         },
         "order": [],
         dom: 'Bfrtip',
